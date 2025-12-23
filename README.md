@@ -4,6 +4,10 @@
 
 # The Prime Synchronization Theorem
 
+## 📢 Call for Collaboration
+We are looking for partners to physically verify the Goldbach Bridge! 
+Read the official invitation here: [CALL_FOR_COLLABORATION.pdf](./CALL_FOR_COLLABORATION.pdf)
+
 **A Rigorous Bridge Between Number Theory and Physics**
 
 ## 📖 Overview
