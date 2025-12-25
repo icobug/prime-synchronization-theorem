@@ -59,3 +59,26 @@ pdflatex Prime_Synchronization_Theorem_Nedelchev_2025.tex
 1. Инсталирайте необходимата библиотека:
    ```bash
    pip install matplotlib
+
+
+# Goldbach Bridge Theorem: Experimental Verification Guides
+
+This repository provides automated tools to generate comprehensive experimental manuals (in PDF format) for the physical verification of the **Goldbach Bridge Theorem** using electronic and chemical oscillators.
+
+## 🚀 Overview
+The project explores the synchronization of prime numbers through physical systems. The provided Python scripts generate detailed 10+ page guides for two types of experiments:
+
+1. **Electronic Experiment**: Utilizing NE555 timers to create specific frequencies linked to prime numbers.
+2. **Chemical Experiment**: Applying the Belousov-Zhabotinsky (BZ) reaction to observe synchronization in oscillating chemical systems.
+
+## 📄 Generated Documentation
+By running the scripts, you will obtain:
+* **Goldbach_Electronic_Experiment_2025.pdf**: Includes circuit diagrams, resistor value calculations for prime pairs, and assembly steps.
+* **Goldbach_Chemical_Experiment_2025.pdf**: Includes reagent lists, safety protocols, and synchronization analysis methodology.
+
+## 🛠️ Installation & Usage
+To generate the guides, ensure you have Python installed along with the required library:
+
+1. **Install dependencies**:
+   ```bash
+   pip install matplotlib
