@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18064794.svg)](https://doi.org/10.5281/zenodo.18064794)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18008215.svg)](https://doi.org/10.5281/zenodo.18008215)
-[![Verification: 100%](https://img.shields.io/badge/Numerical_Verification-100%25-green.svg)](https://github.com/hnedelchev)
+[![Verification: 100%](https://img.shields.io/badge/Numerical_Verification-100%25-green.svg)](https://github.com/icobug/prime-synchronization-theorem)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **A Rigorous Computational Bridge Between Number Theory and Complex Systems Dynamics.**
