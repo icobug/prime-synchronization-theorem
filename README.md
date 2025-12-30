@@ -36,6 +36,10 @@ This "Bridge" serves as a **computational tool** for:
 3. **The Arithmetical Physics Paradigm**: An empirical approach to treating prime numbers as physical oscillators.
 
 ---
+> **🚀 Note:** For the full empirical validation, including the **2.539** scaling constant and the complete mathematical framework, please run:
+> `python nedelchev_complete_model.py`
+---
+---
 
 ## 🧪 Experimental Guides
 The repository provides automated tools to generate manuals for physical verification:
