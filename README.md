@@ -1,7 +1,7 @@
 # The Prime Synchronization Framework (The Nedelchev Hypothesis)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18070968.svg)](https://doi.org/10.5281/zenodo.18070968)
-[![Verification: 100%](https://img.shields.io/badge/Numerical_Verification-100%25-green.svg)](https://github.com/icobug/prime-synchronization-theorem)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18142372.svg)](https://doi.org/10.5281/zenodo.18142372)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.18142372-blue.svg)](https://zenodo.org/records/18142372)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # Prime Phase Transform (PPT) & Goldbach Coupling Algorithm
