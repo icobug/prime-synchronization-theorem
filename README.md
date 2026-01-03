@@ -76,7 +76,7 @@ python prime_sync_kuramoto.py
 The repository provides automated tools to generate manuals for physical verification:
 * **Electronic Guide:** Using timers to map prime frequencies.
 * **Chemical Guide:** Utilizing the Belousov-Zhabotinsky (BZ) reaction for chemical synchronization.
-
+![Experimental Validation Plot](validation_plot.png)
 ## 📊 Latest Experimental Results (Update)
 The hypothesis has been rigorously tested using high-performance numerical simulations:
 
