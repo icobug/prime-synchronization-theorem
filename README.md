@@ -20,8 +20,6 @@ The project has undergone extensive numerical simulations confirming its stabili
 * **Precision:** Coefficient of determination **$R^2 = 0.99995$** (Extremely high statistical reliability).
 * **Scaling Law:** The established law $\kappa_c(N) \cdot \Gamma(N) \approx 2.539 \cdot N^{0.9327}$ has been confirmed as a universal predictor for large-scale systems.
 
-
-
 ## 🏗️ Core Problem Solved
 The algorithm functions as a robust **Empirical Tool (Black Box Solution)** for precisely calculating the "coupling strength" ($\kappa_c$) required for a system to transition from chaos to global order.
 
