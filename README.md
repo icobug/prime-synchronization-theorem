@@ -14,22 +14,22 @@
 
 This project introduces the **Prime Phase Transform (PPT)** – an innovative algorithm for managing synchronization in complex distributed systems through the structural properties of prime numbers.
 
+
+
 ## 🛡️ Statistical Validation (Stress Test)
 The project has undergone extensive numerical simulations confirming its stability and scalability:
 * **Validation Scale:** Full verification across a dataset of $10^7$ (10 million) integers.
-* **Precision:** Coefficient of determination $R^2 = 0.99995$ (Extremely high statistical reliability).
+* **Precision:** Coefficient of determination **$R^2 = 0.99995$** (Extremely high statistical reliability).
 * **Scaling Law:** The established law $\kappa_c(N) \cdot \Gamma(N) \approx 2.539 \cdot N^{0.9327}$ has been confirmed as a universal predictor for large-scale systems.
-
-
 
 ## 🏗️ Core Problem Solved
 The algorithm functions as a robust **Empirical Tool (Black Box Solution)** for precisely calculating the "coupling strength" ($\kappa_c$) required for a system to transition from chaos to global order.
 
 ### Target Applications:
-1. **6G/7G Communications:** Optimizing timing and synchronization in dense network nodes.
-2. **Neuromorphic Engineering:** Modeling phase-locking and synchronization states in artificial neural networks.
-3. **Cybersecurity:** Generating unique phase-based keys derived from Goldbach weights.
-4. **Swarm Robotics:** Achieving decentralized order in multi-agent robotic systems.
+* **6G/7G Communications:** Optimizing timing and synchronization in dense network nodes.
+* **Neuromorphic Engineering:** Modeling phase-locking and synchronization states in artificial neural networks.
+* **Cybersecurity:** Generating unique phase-based keys derived from Goldbach weights.
+* **Swarm Robotics:** Achieving decentralized order in multi-agent robotic systems.
 
 ## 📊 Evidence & Documentation
 The repository includes full results from the "Ultra Test" simulations:
