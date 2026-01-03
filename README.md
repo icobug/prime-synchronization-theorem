@@ -8,7 +8,10 @@
 **A Rigorous Computational Bridge Between Number Theory and Complex Systems Dynamics.**
 <img src="validation_plot.png" width="800">
 ---
+# Goldbach Bridge Theorem: Deterministic Synchronization
 
+[![Manuscript](https://img.shields.io/badge/Download-Manuscript_v3.2-red.svg)](Goldbach_Bridge_Theorem_v3.2.pdf)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.14582697-blue.svg)](https://zenodo.org/records/14582697)
 ## 💡 Overview
 This repository contains the manuscript, source code, and experimental guides for the **Nedelchev Hypothesis**. This framework establishes a consistent computational correspondence between **Goldbach partitions** and **synchronization thresholds** in coupled oscillator systems.
 
