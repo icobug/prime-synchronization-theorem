@@ -31,11 +31,12 @@ The algorithm functions as a robust **Empirical Tool (Black Box Solution)** for 
 * **Cybersecurity:** Generating unique phase-based keys derived from Goldbach weights.
 * **Swarm Robotics:** Achieving decentralized order in multi-agent robotic systems.
 
-## 📊 Evidence & Documentation
-The repository includes full results from the "Ultra Test" simulations:
-* `Ultra_Stress_Test_10M.pdf` – Stability plots up to $10^7$ data points.
-* `Microscopic_Analysis.pdf` – Detailed verification of the $[9,990,000 - 10,000,000]$ interval.
-* `prime_sync_kuramoto.py` – Core Kuramoto dynamical simulation script.
+### 📊 Evidence & Documentation
+The mathematical and physical consistency of the theory is documented in the following reports (available in the repository):
+
+* [📄 Ultra_Stress_Test_10M.pdf](Ultra_Stress_Test_10M.pdf) – Detailed stability plots and statistical analysis for N=10,000,000.
+* [📄 Microscopic_Analysis.pdf](Microscopic_Analysis.pdf) – High-resolution data focusing on the terminal interval performance.
+* [📄 Final_Summary_Report.pdf](Final_Summary_Report.pdf) – Executive summary of the Prime Phase Transform (PPT) results.
 
 ## 🛠️ Installation & Usage
 To run the validation simulation, ensure you have Python 3 installed with `numpy` and `matplotlib`:
