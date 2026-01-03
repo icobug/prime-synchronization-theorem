@@ -6,7 +6,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **A Rigorous Computational Bridge Between Number Theory and Complex Systems Dynamics.**
-
+<img src="validation_plot.png" width="800">
 ---
 
 ## 💡 Overview
