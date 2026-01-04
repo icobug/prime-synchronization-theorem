@@ -118,6 +118,7 @@ The mathematical and physical consistency of the theory is documented in the fol
 ### 
 ---
 ---
+---
 
 ## 📈 Global Synchronization (Final Evidence)
 
