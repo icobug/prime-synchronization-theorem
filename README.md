@@ -127,7 +127,7 @@ After successfully identifying the frequency barrier between different scales of
 * **Linearization of Chaos:** Through logarithmic frequency correction, larger prime oscillators are forced into alignment with smaller ones, achieving total coherence.
 * **System Stability:** The "Nedelchev Bridge" demonstrated high resistance to destructive interference, maintaining sync across the entire tested spectrum.
 
-![Global Sync Proof](Nedelchev_Global_Sync_Final.png)
+![Global Sync Proof](Nedelchev_Global_Sync_Final.jpg)
 
 > **Status:** Hypothesis Software-Validated. Global synchronization achieved and documented.
 
