@@ -3,44 +3,47 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18142372.svg)](https://doi.org/10.5281/zenodo.18142372)
 [![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.18142372-blue.svg)](https://zenodo.org/records/18142372)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-# Prime Phase Transform (PPT) & Goldbach Coupling Algorithm
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-3.2-green.svg)](https://github.com/icobug/prime-synchronization-theorem)
 [![Status](https://img.shields.io/badge/status-Validated-brightgreen.svg)](https://github.com/icobug/prime-synchronization-theorem)
-# The Prime Synchronization Framework (The Nedelchev Hypothesis)
-
-### 🚀 Prime Phase Transform (PPT) & Goldbach Coupling Algorithm
-**Software-Validated Technology up to N = 10,000,000**
 
 ---
 
 ## 🏗️ Core Concept: The Interdisciplinary Bridge
 This project establishes the first formal dynamic link between **Number Theory (Goldbach's Conjecture)** and **Non-linear Dynamics (The Kuramoto Model)**. 
 
-The **Nedelchev Hypothesis** proposes that prime numbers are not merely static entities but act as dynamic oscillators. By mapping the arithmetic properties of Goldbach weights onto physical coupling strengths, we demonstrate the emergence of **Localized Resonance** — a unique state where order is preserved within high-entropy systems.
+The **Nedelchev Hypothesis** proposes that prime numbers act as dynamic oscillators. By mapping the arithmetic properties of Goldbach weights onto physical coupling strengths, we demonstrate the emergence of **Localized and Global Resonance** — a unique state where order is preserved within high-entropy systems.
 
 ---
 
 ## 🛡️ Statistical Validation (Ultra Stress Test)
 The framework has undergone extensive numerical simulations confirming its stability and scalability:
 * **Validation Scale:** Full verification across a dataset of $10^7$ (10 million) integers.
-* **Precision:** Coefficient of determination $R^2 = 0.99995$, indicating near-perfect statistical reliability.
-* **Scaling Law:** $κc(N) \cdot Γ(N) \approx 2.539 \cdot N^{0.9327}$ — a universal predictor for large-scale system transitions.
-
-
+* **Precision:** Coefficient of determination **$R^2 = 0.99995$**, indicating near-perfect statistical reliability.
+* **Scaling Law:** $\kappa_c(N) \cdot \Gamma(N) \approx 2.539 \cdot N^{0.9327}$ — a universal predictor for large-scale system transitions.
 
 ---
 
-## 🧩 Core Problem Solved: Why Localized Resonance?
-Unlike traditional models that seek global synchronization (which can lead to information loss), this algorithm functions as a **Robust Empirical Tool (Black Box Solution)** for:
-1.  **Detecting Localized Order:** Identifying "Arithmetic Sanctuaries" where specific prime pairs $(p+q=N)$ synchronize.
-2.  **Chaos Mitigation:** Calculating the exact "coupling strength" ($κc$) required to prevent system collapse.
+## 📈 Global Synchronization (Final Evidence)
+After successfully identifying the frequency barrier between different scales of prime numbers, **Adaptive Scale Normalization** was integrated. This effectively resolved the "Arithmetic Echo" interference and validated the hypothesis at a global scale.
 
-### Target Applications:
+### Key Experimental Results:
+* **Global Phase Transition:** The system transitions from isolated local resonances to a stable global order parameter ($R > 0.45$).
+* **Linearization of Chaos:** Through logarithmic frequency correction, larger prime oscillators are forced into alignment with smaller ones.
+* **System Stability:** The "Nedelchev Bridge" demonstrated high resistance to destructive interference across the tested spectrum.
+
+<br>
+
+![Global Sync Proof](Nedelchev_Global_Sync_Final.jpg)
+
+<br>
+
+> **Status:** Hypothesis Software-Validated. Global synchronization achieved and documented.
+
+---
+
+## 🧩 Target Applications
 * **6G/7G Communications:** Massive MIMO optimization and interference filtering using prime-based phase shifting.
-* **Neuromorphic Engineering:** Modeling healthy cluster synchronization vs. pathological global states (e.g., Epilepsy research).
+* **Neuromorphic Engineering:** Modeling phase-locking and synchronization states in artificial neural networks.
 * **Cybersecurity:** Phase-based encryption keys derived from Goldbach distribution weights.
 * **Swarm Robotics:** Decentralized coordination through localized arithmetic resonance.
 
@@ -67,7 +70,7 @@ def run_nedelchev_resonance_demo(N=800):
     # Goldbach Matrix (The Bridge)
     W = np.zeros((M, M))
     p_idx = {p: i for i, p in enumerate(primes)}
-    for i, p in enumerate(primes) :
+    for i, p in enumerate(primes):
         q = N - p
         if q in p_idx: W[i, p_idx[q]] = 8.0 # Strong Local Arithmetic Bridge
 
@@ -88,57 +91,3 @@ def run_nedelchev_resonance_demo(N=800):
 
 if __name__ == "__main__":
     run_nedelchev_resonance_demo()
-### 🚀 Software-Validated Technology up to $N = 10,000,000$
-
-This project introduces the **Prime Phase Transform (PPT)** – an innovative algorithm for managing synchronization in complex distributed systems through the structural properties of prime numbers.
-
-
-
-## 🛡️ Statistical Validation (Stress Test)
-The project has undergone extensive numerical simulations confirming its stability and scalability:
-* **Validation Scale:** Full verification across a dataset of $10^7$ (10 million) integers.
-* **Precision:** Coefficient of determination **$R^2 = 0.99995$** (Extremely high statistical reliability).
-* **Scaling Law:** The established law $\kappa_c(N) \cdot \Gamma(N) \approx 2.539 \cdot N^{0.9327}$ has been confirmed as a universal predictor for large-scale systems.
-
-## 🏗️ Core Problem Solved
-The algorithm functions as a robust **Empirical Tool (Black Box Solution)** for precisely calculating the "coupling strength" ($\kappa_c$) required for a system to transition from chaos to global order.
-
-### Target Applications:
-* **6G/7G Communications:** Optimizing timing and synchronization in dense network nodes.
-* **Neuromorphic Engineering:** Modeling phase-locking and synchronization states in artificial neural networks.
-* **Cybersecurity:** Generating unique phase-based keys derived from Goldbach weights.
-* **Swarm Robotics:** Achieving decentralized order in multi-agent robotic systems.
-
-### 📊 Evidence & Documentation
-The mathematical and physical consistency of the theory is documented in the following reports (available in the repository):
-
-* [📄 Ultra_Stress_Test_10M.pdf](Ultra_Stress_Test_10M.pdf) – Detailed stability plots and statistical analysis for N=10,000,000.
-* [📄 Microscopic_Analysis.pdf](Microscopic_Analysis.pdf) – High-resolution data focusing on the terminal interval performance.
-* [📄 Final_Summary_Report.pdf](Final_Summary_Report.pdf) – Executive summary of the Prime Phase Transform (PPT) results.
-### 
----
----
----
-
-## 📈 Global Synchronization (Final Evidence)
-
-After successfully identifying the frequency barrier between different scales of prime numbers, **Adaptive Scale Normalization** was integrated into the model. This effectively resolved the "Arithmetic Echo" interference and validated the **Nedelchev Hypothesis** at a global scale.
-
-### Key Experimental Results:
-* **Global Phase Transition:** The system successfully transitions from isolated local resonances to a stable global order parameter ($R > 0.45$).
-* **Linearization of Chaos:** Through logarithmic frequency correction, larger prime oscillators are forced into alignment with smaller ones, achieving total coherence.
-* **System Stability:** The "Nedelchev Bridge" demonstrated high resistance to destructive interference, maintaining sync across the entire tested spectrum.
-
-![Global Sync Proof](Nedelchev_Global_Sync_Final.jpg)
-
-> **Status:** Hypothesis Software-Validated. Global synchronization achieved and documented.
-
----
-
-## 🛠️ Installation & Usage
-To run the validation simulation, ensure you have Python 3 installed with `numpy` and `matplotlib`:
-
-```bash
-git clone [https://github.com/icobug/prime-synchronization-theorem.git](https://github.com/icobug/prime-synchronization-theorem.git)
-cd prime-synchronization-theorem
-python prime_sync_kuramoto.py
