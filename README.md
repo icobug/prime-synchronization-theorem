@@ -159,9 +159,4 @@ python nedelchev_law_validation.py
 # Validation Complete: R^2 = 1.00000
 # Documentation: See Nedelchev_Scaling_Law_v4.pdf
 
-<p align="center">
-  <img src="Nedelchev_Law_Pure_Validation.png?raw=true" alt="Nedelchev Law Validation" width="600">
-  <br>
-  <em>Figure 1: Nedelchev Scaling Law Validation showing $R^2 = 1.00000$</em>
-</p>
 
