@@ -154,3 +154,5 @@ To verify the **Nedelchev Scaling Law** independently, you can run the provided 
 #### Run Validation Script:
 ```bash
 python nedelchev_law_validation.py
+
+![Nedelchev Law Pure Validation](Nedelchev_Law_Pure_Validation.png)
