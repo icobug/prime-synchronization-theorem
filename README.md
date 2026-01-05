@@ -145,3 +145,12 @@ The full framework is now archived and citable via Zenodo:
 **Download PDF:** [Nedelchev_Law_v4_Final.pdf](https://zenodo.org/records/18157185/files/Nedelchev_Law_v4_Final.pdf)
 
 ---
+
+---
+
+### 🚀 Replication and Core Validation
+To verify the **Nedelchev Scaling Law** independently, you can run the provided validation script which tests the law in its purest form (without heuristic adjustments).
+
+#### Run Validation Script:
+```bash
+python nedelchev_law_validation.py
