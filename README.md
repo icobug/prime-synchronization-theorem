@@ -146,23 +146,10 @@ The full framework is now archived and citable via Zenodo:
 
 ---
 
----
-
 ### 🚀 Replication and Core Validation
 To verify the **Nedelchev Scaling Law** independently, you can run the provided validation script which tests the law in its purest form (without heuristic adjustments).
 
 #### Run Validation Script:
 ```bash
 python nedelchev_law_validation.py
-
----
-
-### 🚀 Replication and Core Validation
-To verify the **Nedelchev Scaling Law** independently, you can run the provided validation script which tests the law in its purest form (without heuristic adjustments).
-
-#### Run Validation Script:
-```bash
-python nedelchev_law_validation.py
-
-![Nedelchev Law Pure Validation](Nedelchev_Law_Pure_Validation.png?raw=true)
 
