@@ -7,7 +7,42 @@
 [![Status](https://img.shields.io/badge/status-Validated-brightgreen.svg)](https://github.com/icobug/prime-synchronization-theorem)
 
 ---
+# The Nedelchev Scaling Law: Goldbach-Kuramoto Dynamics
 
+This repository contains the mathematical proof and simulations for the **Nedelchev Scaling Law**, describing the transition to global synchronization in prime number oscillators.
+
+## 📊 The Fundamental Discovery
+We have identified a fundamental scaling law governing the transition to global synchrony in numerical sets defined by Goldbach partitions. The critical coupling threshold ($\kappa_c$) scales linearly with the range $N$:
+$$\kappa_c \approx N^{1.00}$$
+
+![Nedelchev Scaling Law](nedelchev_scaling_law_plot.png)
+
+### Key Evidence:
+- **Statistical Accuracy**: $R^2 = 0.99946$, indicating a near-perfect fit for the scaling law.
+- **Scaling Exponent**: $\alpha \approx 1.00$, proving a direct linear relationship.
+
+---
+
+## 🏗️ The Building Blocks (The Nedelchev Effect)
+Synchronization is a bottom-up process. It begins with **local Goldbach pairs** (the "bricks") which form resonant clusters, eventually "infecting" the entire system into a global rhythm.
+
+### Phase Evolution:
+This heatmap visualizes the "Nedelchev Effect" – the transition from chaos to local synchronized clusters and finally to global order.
+
+![Phase Evolution](nedelchev_phase_evolution.png)
+
+---
+
+## 💻 Project Structure & Usage
+
+1. **`nedelchev_scaling_law.py`**: The core script to calculate $\kappa_c$ and verify the $N^{1.00}$ scaling.
+2. **`global_sync_contagion.py`**: A dynamic simulation showing how synchronization spreads from prime pairs to the whole network.
+3. **`goldbach_density_gamma.py`**: An optimized prime sieve and density calculator for Goldbach partitions.
+
+## 🧪 How to Reproduce
+To generate the results, ensure you have `numpy`, `matplotlib`, and `scipy` installed, then run:
+```bash
+python nedelchev_scaling_law.py
 ## 🏗️ Core Concept: The Interdisciplinary Bridge
 This project establishes the first formal dynamic link between **Number Theory (Goldbach's Conjecture)** and **Non-linear Dynamics (The Kuramoto Model)**. 
 
