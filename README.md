@@ -77,3 +77,19 @@ python goldbach_vs_random_benchmark.py
 
 # To visualize the Physical Scaling (The Dynamical Law)
 python dynamical_scaling_v4.py
+
+---
+
+## 🔍 Technical Clarification on the Goldbach Interaction Operator
+
+To ensure the correct interpretation of the results and to prevent common misunderstandings regarding the coupling matrix, please refer to the following supplemental document:
+
+* [cite_start]**Document:** [Technical_Clarification.pdf](./Technical_Clarification.pdf) [cite: 1, 5]
+* [cite_start]**Definition:** The object referred to as the "Goldbach matrix" is formally defined as the **Goldbach Interaction Operator** $W_N$[cite: 5, 13]. [cite_start]For a fixed even integer $N$, $(W_{N})_{ij}=1$ if $p_i + p_j = N$, and $0$ otherwise[cite: 14, 17].
+* [cite_start]**Structural Properties:** Unlike standard graph-theoretic adjacency matrices, $W_N$ decomposes into disjoint $2\times2$ permutation blocks[cite: 6, 20].
+* [cite_start]**Spectral Analysis:** As a consequence of its structure as a partial permutation operator, the spectral radius $\rho(W_N) = \lambda_{max}(W_N) = 1$ for all $N$[cite: 23, 26].
+* [cite_start]**Synchronization Threshold:** The document clarifies that the observed linear scaling $\kappa_c(N) \propto N$ arises from intrinsic frequency dispersion, not from the spectral growth of the operator[cite: 32, 33].
+
+[cite_start]This clarification ensures that all numerical results are consistent with the structural properties of the Goldbach Interaction Operator[cite: 35].
+
+---
