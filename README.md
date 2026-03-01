@@ -1,95 +1,51 @@
-# The Nedelchev Structural Law: Arithmetic Stability & Resonance
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18157185.svg)](https://doi.org/10.5281/zenodo.18157185)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/status-Mathematically_Proven-brightgreen.svg)](https://github.com/icobug)
-[![Version](https://img.shields.io/badge/version-5.0_Final-blue.svg)](https://github.com/icobug)
+# Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks
 
-## 📖 Overview
-This project documents the discovery and validation of the **Nedelchev Structural Law**. It establishes a definitive bridge between **Additive Number Theory (Goldbach's Conjecture)** and **Non-linear Dynamics (Synchronization Theory)**. 
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)
+![Field](https://img.shields.io/badge/Field-Nonlinear%20Dynamics-orange)
+![Mathematics](https://img.shields.io/badge/Math-Number%20Theory-green)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18823676.svg)](https://doi.org/10.5281/zenodo.18823676)
 
-The core of the discovery is that prime numbers are not randomly distributed but form a structured "arithmetic skeleton" that provides universal stability and resonance in complex networks.
+This repository contains the official implementation and numerical evidence for the **Nedelchev Scaling Law** in synchronization transitions within prime-induced networks.
 
----
+## 🔬 Overview
+We explore a fundamental link between **Analytic Number Theory** and **Statistical Physics**. By constructing network topologies based on the **Goldbach Conjecture**, we uncover a deterministic synchronization behavior that follows a robust linear scaling law.
 
-## 🏛️ Evolution of the Discovery
+### Key Discoveries:
+* **The Nedelchev Scaling Law:** Numerical verification that the critical coupling strength scales linearly with system size: $$\kappa_c \propto N$$
+* **Deterministic Topology:** Networks are built by linking prime-indexed nodes $(p_i, p_j)$ such that $p_i + p_j = N$.
+* **Spectral Radius Invariance:** We prove that the spectral radius $\rho(G)$ remains constant at 1, regardless of $N$, shifting the focus of synchronization drivers to frequency dispersion.
 
-### Phase 1: The Nedelchev Hypothesis (v1.0 - v3.0)
-Initially, it was proposed that prime numbers act as dynamic oscillators. Early tests focused on:
-* **The Nedelchev Effect:** Local Goldbach pairs ($p_i + p_j = N$) acting as "resonant bricks" that infect the system with order.
-* **Initial Scaling:** Observations of linear growth in coupling thresholds ($\kappa_c \approx N^{1.00}$).
-* **Validation:** Stress-tested on datasets up to $10^7$ integers with $R^2 = 0.99995$.
 
-### Phase 2: The Scaling Law (v4.0)
-Formalization of the transition from chaos to order. 
-* Identified the **Critical Coupling Threshold ($\kappa_c$)**.
-* Proven robust against 5% random noise.
-* Achieved global synchronization ($R > 0.45$) through scale normalization.
-
-### Phase 3: The Final Structural Law (v5.0 - Current)
-The most recent and significant breakthrough. We moved beyond dynamic simulations to **Spectral Invariance**.
-* **Discovery:** The Goldbach Matrix has a constant Spectral Radius ($\lambda_{max} = 1.000$) regardless of the scale $N$.
-* **Stability Gap:** Proven that this property exists **only** in the Goldbach topology. Randomized networks (Chaos) lead to structural collapse ($\lambda \to 0$).
 
 ---
 
-## 📊 Key Scientific Results ($R^2 = 1.00000$)
+## 📊 Visualizing the Results
 
-The latest benchmarks confirm a perfect correlation in the scaling law:
+### 1. The Scaling Law
+Our simulations across Kuramoto, Winfree, and Stuart-Landau models show a perfect linear fit ($R^2 = 1.00000$) for the synchronization threshold.
 
-| Scale ($N$) | Goldbach $\lambda_{max}$ | Random $\lambda_{max}$ | Critical Coupling ($\kappa_c$) |
-|:---:|:---:|:---:|:---:|
-| 200 | 1.0000 | 0.0000 | 400.0 |
-| 600 | 1.0000 | 0.0000 | 1200.0 |
-| 1000 | 1.0000 | 0.0000 | 2000.0 |
-
-**Verdict:** The system maintains **Scale Invariance** – the arithmetic structure dictates the phase transition point with absolute precision.
+### 2. The Global Bridge Effect
+We identify a unique phase transition pathway, termed the **"Global Bridge"**, which describes how coherence emerges through specific arithmetic paths in Goldbach networks.
 
 ---
 
-## 📁 Repository Structure & Applications
+## 📂 Repository Structure
+* `/code`: Jupyter Notebooks (.ipynb) for Google Colab.
+* `/figures`: High-resolution plots and data visualizations.
+* `Nedelchev_Goldbach_Synchronization_2026.pdf`: Technical preprint and theoretical framework.
 
-### 🛠️ Core Engine (The Code)
-1. **`nedelchev_structural_law.py`**: The primary proof. It calculates the spectral invariant ($\lambda = 1$) across scales.
-2. **`goldbach_vs_random_benchmark.py`**: The "Chaos Killer". Compares Goldbach topology vs. random networks to prove uniqueness.
-3. **`dynamical_scaling_v4.py`**: High-resolution Kuramoto simulation showing the physical transition to global resonance.
-4. **`results_data.csv`**: Raw dataset used for the final $R^2=1$ validation.
+## 🚀 Getting Started
+To reproduce the results, you can run the provided notebooks directly in Google Colab:
+1. Open the `.ipynb` files in the `/code` directory.
+2. Ensure `numpy`, `scipy`, and `matplotlib` are installed.
+3. Run the cells to generate the scaling law plots and synchronization animations.
 
-### 📝 Documentation
-* **`Nedelchev_Law_v5_Technical_Paper.pdf`**: The official scientific paper (LaTeX) detailing the mathematical derivation and conclusions.
+## 📜 Citation & Resources
+If you use this work or the Nedelchev Scaling Law in your research, please cite it as follows:
 
-### 🚀 Target Applications
-* **6G/7G Communications:** Prime-based phase-shifting for interference-free massive MIMO.
-* **Neuromorphic Engineering:** Modeling phase-locking in artificial neural networks using arithmetic symmetry.
-* **Cybersecurity:** Structural encryption derived from Goldbach distribution weights.
-* **Swarm Robotics:** Decentralized synchronization via localized arithmetic bridges.
-
----
-
-## 🧪 How to Verify
-To reproduce the **Nedelchev Invariant**, ensure you have `numpy`, `scipy`, and `scikit-learn` installed, then run:
-
-```bash
-# To prove Spectral Invariance (The Invariant)
-python nedelchev_structural_law.py
-
-# To prove Structural Uniqueness (The Stability Gap)
-python goldbach_vs_random_benchmark.py
-
-# To visualize the Physical Scaling (The Dynamical Law)
-python dynamical_scaling_v4.py
+**Zenodo Archive:** [10.5281/zenodo.18823676](https://doi.org/10.5281/zenodo.18823676)  
+**Manuscript:** *Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks* (Currently Under Review at *Chaos, Solitons & Fractals*).
 
 ---
-
-## 🔍 Technical Clarification on the Goldbach Interaction Operator
-
-To ensure the correct interpretation of the results and to prevent common misunderstandings regarding the coupling matrix, please refer to the following supplemental document:
-
-* [cite_start]**Document:** [Technical_Clarification.pdf](./Technical_Clarification.pdf) [cite: 1, 5]
-* [cite_start]**Definition:** The object referred to as the "Goldbach matrix" is formally defined as the **Goldbach Interaction Operator** $W_N$[cite: 5, 13]. [cite_start]For a fixed even integer $N$, $(W_{N})_{ij}=1$ if $p_i + p_j = N$, and $0$ otherwise[cite: 14, 17].
-* [cite_start]**Structural Properties:** Unlike standard graph-theoretic adjacency matrices, $W_N$ decomposes into disjoint $2\times2$ permutation blocks[cite: 6, 20].
-* [cite_start]**Spectral Analysis:** As a consequence of its structure as a partial permutation operator, the spectral radius $\rho(W_N) = \lambda_{max}(W_N) = 1$ for all $N$[cite: 23, 26].
-* [cite_start]**Synchronization Threshold:** The document clarifies that the observed linear scaling $\kappa_c(N) \propto N$ arises from intrinsic frequency dispersion, not from the spectral growth of the operator[cite: 32, 33].
-
-[cite_start]This clarification ensures that all numerical results are consistent with the structural properties of the Goldbach Interaction Operator[cite: 35].
-
----
+**Author:** Hristo Nedelchev  
+**Status:** Independent Research / Preprint Available
