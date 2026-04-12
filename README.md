@@ -1,6 +1,6 @@
 # Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19166485.svg)](https://doi.org/10.5281/zenodo.19166485)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19544373.svg)](https://doi.org/10.5281/zenodo.19544373)
 
 This repository contains the official implementation and numerical evidence for the **Nedelchev Scaling Law** and the **High-Density Goldbach Bridge** in synchronization transitions within prime-induced networks.
 
@@ -46,7 +46,7 @@ To reproduce the results, you can run the provided scripts directly:
 ## 📜 Citation & Resources
 If you use this work or the Nedelchev Scaling Law in your research, please cite it as follows:
 
-* **Zenodo Archive:** [10.5281/zenodo.19166485](https://doi.org/10.5281/zenodo.19166485)
+* **Zenodo Archive:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19544373.svg)](https://doi.org/10.5281/zenodo.19544373)
 * **Manuscript:** *Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks* (Currently Under Review at **Chaos, Solitons & Fractals**).
 
 **Author:** Hristo Nedelchev  
