@@ -46,7 +46,7 @@ To reproduce the results, you can run the provided scripts directly:
 ## 📜 Citation & Resources
 If you use this work or the Nedelchev Scaling Law in your research, please cite it as follows:
 
-* **Zenodo Archive:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19544373.svg)](https://doi.org/10.5281/zenodo.19544373)
+* **Zenodo Archive:** [https://doi.org/10.5281/zenodo.19544702](https://doi.org/10.5281/zenodo.19544702)
 * **Manuscript:** *Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks* (Currently Under Review at **Chaos, Solitons & Fractals**).
 
 **Author:** Hristo Nedelchev  
