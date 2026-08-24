@@ -1,3 +1,35 @@
+# Nedelchev Spectral Goldbach Proof
+
+## Overview
+This repository contains the complete research paper:  
+**"Spectral Analysis of Goldbach Partitions: A Method Superior to Hardy-Littlewood"**
+
+Based on the **Nedelchev Structural Law**:
+$$κ_c = \frac{\sigma(P)}{\lambda_{\max}(P)} \sim N^\alpha, \quad \alpha \approx 0.9985$$
+
+## Key Results
+| Metric | Nedelchev Spectral | Hardy-Littlewood |
+|--------|-------------------|------------------|
+| DENSE Enrichment | **100.00%** | 93.33% |
+| SPARSE Enrichment | **97.78%** | 6.67% |
+| Correlation | **0.999978** | 0.983356 |
+
+**Statistical Significance:**
+- DENSE: t = 4.24 (p < 0.05)
+- SPARSE: t = 50.21 (p < 0.001)
+
+## Files
+- `Nedelchev_Spectral_Goldbach_Proof_v2.0_Crystal_Clear.pdf` – Full paper
+
+## Related Work
+This paper extends the framework established in:  
+**[Numerical Evidence for Linear Scaling Laws in Goldbach-induced Oscillator Networks](https://doi.org/10.5281/zenodo.22086177)**  
+*(Zenodo, 2026)*
+
+## Author
+Hristo Nedelchev
+
+
 # Emergent Synchronization Dynamics in Goldbach-induced Oscillator Networks
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19544702.svg)](https://doi.org/10.5281/zenodo.19544702)
