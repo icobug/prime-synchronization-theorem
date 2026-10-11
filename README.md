@@ -1,3 +1,46 @@
+# Phase-Collapse (PC) Optimization Framework
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23305734.svg)](https://doi.org/10.5281/zenodo.23305734)
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+
+**Author:** Христо Неделчев (Independent Researcher, Ruse, Bulgaria)  
+**Open Science Archive:** [Zenodo DOI: 10.5281/zenodo.23305734](https://doi.org/10.5281/zenodo.23305734)
+
+---
+
+## Overview
+
+Traditional metaheuristics (such as Hill Climbing, Simulated Annealing, and Genetic Algorithms) frequently fail or become trapped in sub-optimal local basins when confronted with non-smooth, discrete, multi-modal, or highly singular landscapes. 
+
+**Phase-Collapse (PC)** is a novel hybrid metaheuristic architecture designed to navigate extreme "needle-in-a-haystack" spaces. It models the search space as a dynamic multi-phase manifold governed by rhythmic phase oscillations and structural memory.
+
+---
+
+## Core Architectural Pillars
+
+1. **9-Point Phase Cycle & 10th Hyper-Transition State:**
+   - **Ticks 1–9 (Breathing Phase Cycle):** Step scales vary dynamically across iterations, alternating between micro-exploration, broad expansion, and macro-leaps.
+   - **Tick 10 (Hyper-Transition State):** Triggers a structural reset and multi-dimensional vector rotation to break deep regional stagnation barriers.
+2. **Spatial Diversity Archive:** An elitist memory structure filtered by Manhattan distance thresholds to preserve multiple independent global/local peaks simultaneously.
+3. **Micro-Scanning Beams:** Automatically activate during high-variance objective evaluations to perform high-resolution sub-grid sweeps.
+4. **Adaptive Zoom & Tension Management:** Monitors stagnation counters to execute macro-teleportation between archived peaks.
+
+---
+
+## Repository Structure
+
+* `phase_collapse.py` — The core optimization engine (`PhaseCollapseOptimizer`) and reference verification benchmark suite.
+* `Phase-Collapse Optimization Monograph.pdf` — The comprehensive 8-page academic preprint detailing mathematical formulations and benchmark results.
+
+---
+
+## Installation & Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/phase-collapse-optimization.git](https://github.com/your-username/phase-collapse-optimization.git)
+   cd phase-collapse-optimization
 # Nedelchev Spectral Goldbach Proof
 
 ## Overview
